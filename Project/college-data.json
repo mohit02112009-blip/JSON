@@ -1,0 +1,287 @@
+{
+    "academic": {
+        "institution": "Z Institute of Technology",
+        "established": 2012,
+        "affiliation": "National Technical Education Board",
+        "academicSession": "2026-2027",
+        "workingDays": 220,
+        "attendanceRequirement": "75%",
+        "gradingSystem": "CGPA and Percentage",
+        "academicFacilities": [
+            "Smart Classrooms",
+            "Digital Laboratories",
+            "Central Library",
+            "Computer Centre",
+            "Research Centre"
+        ]
+    },
+
+    "students": [
+        {
+            "id": "STU001",
+            "name": "Aarav Sharma",
+            "course": "Diploma in Computer Engineering",
+            "semester": "2nd Semester",
+            "rollNumber": "CE2026001",
+            "email": "aarav@example.com",
+            "attendance": "88%",
+            "status": "Active"
+        },
+
+        {
+            "id": "STU002",
+            "name": "Ananya Verma",
+            "course": "Diploma in Information Technology",
+            "semester": "2nd Semester",
+            "rollNumber": "IT2026002",
+            "email": "ananya@example.com",
+            "attendance": "91%",
+            "status": "Active"
+        },
+
+        {
+            "id": "STU003",
+            "name": "Rohan Kumar",
+            "course": "Diploma in Electronics Engineering",
+            "semester": "4th Semester",
+            "rollNumber": "EE2025015",
+            "email": "rohan@example.com",
+            "attendance": "84%",
+            "status": "Active"
+        },
+
+        {
+            "id": "STU004",
+            "name": "Priya Singh",
+            "course": "Diploma in Mechanical Engineering",
+            "semester": "3rd Semester",
+            "rollNumber": "ME2025021",
+            "email": "priya@example.com",
+            "attendance": "86%",
+            "status": "Active"
+        },
+
+        {
+            "id": "STU005",
+            "name": "Aditya Gupta",
+            "course": "Diploma in Computer Engineering",
+            "semester": "6th Semester",
+            "rollNumber": "CE2024012",
+            "email": "aditya@example.com",
+            "attendance": "93%",
+            "status": "Active"
+        }
+    ],
+
+    "teachers": [
+        {
+            "id": "FAC001",
+            "name": "Dr. Rajesh Mehta",
+            "department": "Computer Engineering",
+            "designation": "Head of Department",
+            "experience": "14 Years",
+            "qualification": "Ph.D. in Computer Science",
+            "email": "rajesh@example.com"
+        },
+
+        {
+            "id": "FAC002",
+            "name": "Prof. Neha Kapoor",
+            "department": "Information Technology",
+            "designation": "Senior Lecturer",
+            "experience": "10 Years",
+            "qualification": "M.Tech in Information Technology",
+            "email": "neha@example.com"
+        },
+
+        {
+            "id": "FAC003",
+            "name": "Prof. Amit Verma",
+            "department": "Electronics Engineering",
+            "designation": "Lecturer",
+            "experience": "8 Years",
+            "qualification": "M.Tech in Electronics",
+            "email": "amit@example.com"
+        },
+
+        {
+            "id": "FAC004",
+            "name": "Dr. Pooja Sharma",
+            "department": "Mechanical Engineering",
+            "designation": "Assistant Professor",
+            "experience": "7 Years",
+            "qualification": "Ph.D. in Mechanical Engineering",
+            "email": "pooja@example.com"
+        }
+    ],
+
+    "courses": [
+        {
+            "code": "CE101",
+            "name": "Diploma in Computer Engineering",
+            "duration": "3 Years",
+            "semesters": 6,
+            "seats": 60,
+            "eligibility": "Class 10 Pass"
+        },
+
+        {
+            "code": "IT101",
+            "name": "Diploma in Information Technology",
+            "duration": "3 Years",
+            "semesters": 6,
+            "seats": 60,
+            "eligibility": "Class 10 Pass"
+        },
+
+        {
+            "code": "EE101",
+            "name": "Diploma in Electronics Engineering",
+            "duration": "3 Years",
+            "semesters": 6,
+            "seats": 60,
+            "eligibility": "Class 10 Pass"
+        },
+
+        {
+            "code": "ME101",
+            "name": "Diploma in Mechanical Engineering",
+            "duration": "3 Years",
+            "semesters": 6,
+            "seats": 60,
+            "eligibility": "Class 10 Pass"
+        }
+    ],
+
+    "departments": [
+        {
+            "name": "Computer Engineering",
+            "head": "Dr. Rajesh Mehta",
+            "facultyMembers": 18,
+            "students": 420,
+            "laboratories": 5
+        },
+
+        {
+            "name": "Information Technology",
+            "head": "Prof. Neha Kapoor",
+            "facultyMembers": 15,
+            "students": 350,
+            "laboratories": 4
+        },
+
+        {
+            "name": "Electronics Engineering",
+            "head": "Prof. Amit Verma",
+            "facultyMembers": 14,
+            "students": 310,
+            "laboratories": 4
+        },
+
+        {
+            "name": "Mechanical Engineering",
+            "head": "Dr. Pooja Sharma",
+            "facultyMembers": 16,
+            "students": 380,
+            "laboratories": 6
+        }
+    ],
+
+    "exams": [
+        {
+            "exam": "Mid Semester Examination",
+            "semester": "2nd Semester",
+            "startDate": "2026-09-10",
+            "endDate": "2026-09-16",
+            "status": "Scheduled"
+        },
+
+        {
+            "exam": "End Semester Examination",
+            "semester": "2nd Semester",
+            "startDate": "2026-12-01",
+            "endDate": "2026-12-15",
+            "status": "Scheduled"
+        },
+
+        {
+            "exam": "Practical Examination",
+            "semester": "4th Semester",
+            "startDate": "2026-11-10",
+            "endDate": "2026-11-18",
+            "status": "Scheduled"
+        }
+    ],
+
+    "library": {
+        "totalBooks": 28500,
+        "digitalResources": 7200,
+        "journals": 185,
+        "seatingCapacity": 320,
+        "workingHours": "8:00 AM - 8:00 PM",
+
+        "books": [
+            {
+                "title": "Introduction to Algorithms",
+                "author": "Thomas H. Cormen",
+                "category": "Computer Science",
+                "availableCopies": 8
+            },
+
+            {
+                "title": "Computer Networks",
+                "author": "Andrew S. Tanenbaum",
+                "category": "Networking",
+                "availableCopies": 6
+            },
+
+            {
+                "title": "Database System Concepts",
+                "author": "Abraham Silberschatz",
+                "category": "Database",
+                "availableCopies": 5
+            },
+
+            {
+                "title": "Engineering Mathematics",
+                "author": "John Bird",
+                "category": "Mathematics",
+                "availableCopies": 12
+            }
+        ]
+    },
+
+    "notices": [
+        {
+            "id": "NOTICE001",
+            "title": "Semester Registration Open",
+            "date": "2026-08-05",
+            "category": "Academic",
+            "description": "Semester registration for the upcoming academic session is now open."
+        },
+
+        {
+            "id": "NOTICE002",
+            "title": "Library Timing Updated",
+            "date": "2026-08-07",
+            "category": "Library",
+            "description": "The central library will remain open from 8:00 AM to 8:00 PM."
+        },
+
+        {
+            "id": "NOTICE003",
+            "title": "Internal Assessment Schedule",
+            "date": "2026-08-09",
+            "category": "Examination",
+            "description": "The internal assessment schedule has been published for all departments."
+        },
+
+        {
+            "id": "NOTICE004",
+            "title": "Technical Workshop",
+            "date": "2026-08-12",
+            "category": "Event",
+            "description": "A technical workshop on emerging technologies will be conducted this month."
+        }
+    ]
+}
